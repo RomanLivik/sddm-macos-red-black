@@ -26,4 +26,11 @@ Current=sddm-macos-red-black
 cd /etc/
 mkdir sddm.conf.d
 ```
+### To change avatar/wallpaper
+* You need to edit with sudo Main.qml and theme.conf
+* You should move the wallpaper or avatar to the assets folder:
+```
+sudo cp -r wallpaper/avatar /usr/share/sddm/themes/sddm-macos-red-black/assets
+```
+
 My friend helped me develop this theme. His github: https://github.com/exxtnd
